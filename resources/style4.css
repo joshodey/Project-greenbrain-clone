@@ -1,0 +1,91 @@
+<style>
+
+.main-body {
+    background-color: rgb(210, 241, 163,0.3)
+}
+.img-animate {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:0px;}
+    50%  {left:0px; top:50px;}
+    75%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+  }
+  
+  .form-container {
+    position: relative;
+    width: 98%;
+    max-width: 480px;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+  .div-button {
+    margin: 50%;
+  }
+
+  .btn-1 {
+      background-color: #219988;
+      color: white;
+  }
+  .lite-green-center {
+    background-color: #e4fcf4;
+  }
+  .shadow-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+  }
+  .text-bg {
+      text-align: center;
+      font-size: 60px;
+  }
+  .vert-align {
+      text-align: center;
+      margin: auto;
+  }
+  .pick-41 {
+    color: #fe7e8a;
+    text-decoration: none;
+}
+.pick-279 {
+    color: #ebc97a;
+    text-decoration: none;
+}
+.pick-277 {
+    color: #4e6532;
+    text-decoration: none;
+}
+.pick-214 {
+    color: #219988;
+    text-decoration: none;
+}
+.nolink-col {
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    #grad1 {
+        height: 10%;
+        width: auto;
+        background-color: #40514e; 
+        background-image: linear-gradient(to bottom left, #219988, #40514e);
+      }
+      .body-bg {
+        background-color: #8ceccc;
+      }
+.middle-body {
+      background-color: white;
+      padding: 12vw 3vw 12vw 3vw;
+      margin: 5% 10% 5% 20%; 
+}
